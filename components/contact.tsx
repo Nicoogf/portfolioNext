@@ -10,7 +10,7 @@ import toast from "react-hot-toast";
 import { BsFillMapFill, BsInstagram, BsWhatsapp } from "react-icons/bs";
 
 export default function Contact() {
-  const { ref } = useSectionInView("Contact");
+  const { ref } = useSectionInView("Contacto");
 
   return (
     <motion.section
