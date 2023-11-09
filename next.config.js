@@ -8,11 +8,10 @@ const nextConfig = {
       },
     ],
   },
-  experimental: {
-    serverActions: true,
-  },
-   distDir: 'out',
-   basePath: '/portfolioNext',
+  distDir: 'out',
+  basePath: '/portfolioNext',
+  target: 'experimental-serverless-trace', 
+  output: 'out', 
 };
 
 module.exports = nextConfig;
