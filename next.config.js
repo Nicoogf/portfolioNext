@@ -11,6 +11,8 @@ const nextConfig = {
   experimental: {
     serverActions: true,
   },
+   distDir: 'out',
+   basePath: '/portfolioNext',
 };
 
 module.exports = nextConfig;
